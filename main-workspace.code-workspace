@@ -1,0 +1,33 @@
+// main-workspace.code-workspace
+{
+  "folders": [
+    {
+      "name": "common",
+      "path": "./common"
+    },
+    {
+      "name": "fundamentals",
+      "path": "./fundamentals"
+    }
+    // You can add more roots here later, e.g.:
+    // {
+    //   "name": "other-project",
+    //   "path": "./other-project"
+    // }
+  ],
+
+  // "settings": {
+  //   // Make the workspace root visible to Python at runtime
+  //   "terminal.integrated.env.windows": {
+  //     "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}"
+  //   },
+
+  //   // Help Pylance / language server see `common` for imports
+  //   "python.analysis.extraPaths": [
+  //     "./common"
+  //   ],
+
+  //   // (Optional) Explicitly point to the .env file if you use one
+  //   "python.envFile": "${workspaceFolder}/.env"
+  // }
+}
