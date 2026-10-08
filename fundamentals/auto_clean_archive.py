@@ -1,6 +1,6 @@
 import os
 from datetime import datetime, timedelta
-from common import LogArchiver
+from common.files import LogArchiver
 
 def simulate_log_environment(log_dir):
     """
