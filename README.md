@@ -19,3 +19,7 @@ This repository contains a collection of different Python projects, ranging from
 - In VSCode's user settings, add :  **"python.terminal.useEnvFile": true,**
 - Run in a terminal the command :   **python fundamentals/auto_clean_archive.py** from the workspace root
 - Alternatively you can also select the VSCode option : **Add as Python Project** and select the option run as task
+
+## HTTP API sample server (fundamentals)
+A simple REST api server to be used for som examples
+When started, you can access the API swagger from http://127.0.0.1:8000/docs

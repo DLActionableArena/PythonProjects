@@ -11,6 +11,11 @@
             "path": "fundamentals/json_key_value_store.py",
             "envManager": "ms-python.python:system",
             "packageManager": "ms-python.python:pip"
+        },
+        {
+            "path": "fundamentals/http_api_sample_server.py",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
         }
     ]
 }
